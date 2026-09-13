@@ -1,0 +1,10 @@
+import math
+
+def func(x, y):
+    s = math.cos(x) * math.tan(y) + math.log(math.exp(x) + 4, 5) + 1 / math.sqrt(abs(x) + 0.1)
+    return s
+
+x = float(input("введіть x: "))
+y = float(input("введіть y: "))
+s = func(x, y)
+print("s =", s)

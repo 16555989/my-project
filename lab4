@@ -1,0 +1,13 @@
+import math
+
+def func(x):
+    # Обчислення виразу: (sin(x) - lg(x)) / sqrt(7x) + (x + 4)^(2x - 8)
+    y = (math.sin(x) - math.log10(x)) / math.sqrt(7 * x) + (x + 4) ** (2 * x - 8)
+    return y
+
+# Введення значення користувачем
+x = float(input("Введіть x: "))
+
+# Обчислення та виведення результату
+y = func(x)
+print(f"f(x) = {y}")
