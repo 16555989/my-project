@@ -3,5 +3,5 @@
 Факультет: Комп’ютерні науки
 Назва проєкту: Лабораторна робота №4
 Варіант: 9
-Посилання на GitHub: [https://github.com/16555989/my-project](https://github.com/16555989/my-project)
+Посилання на GitHub: [https://github.com/16555989/мій-проект](https://github.com/16555989/мій-проект)
 
