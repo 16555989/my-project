@@ -1,0 +1,27 @@
+import math
+
+x = float(input("Введіть x точки M: "))
+y = float(input("Введіть y точки M: "))
+
+xA = float(input("Введіть x точки A: "))
+yA = float(input("Введіть y точки A: "))
+
+xB = float(input("Введіть x точки B: "))
+yB = float(input("Введіть y точки B: "))
+
+xC = float(input("Введіть x точки C: "))
+yC = float(input("Введіть y точки C: "))
+
+dA = math.sqrt((xA - x)**2 + (yA - y)**2)
+dB = math.sqrt((xB - x)**2 + (yB - y)**2)
+dC = math.sqrt((xC - x)**2 + (yC - y)**2)
+
+if dA <= dB and dA <= dC:
+    print("Найближча точка A")
+    print("Відстань =", dA)
+elif dB <= dA and dB <= dC:
+    print("Найближча точка B")
+    print("Відстань =", dB)
+else:
+    print("Найближча точка C")
+    print("Відстань =", dC)
